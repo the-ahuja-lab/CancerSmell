@@ -660,7 +660,7 @@ write.table(gbm_es_2,file="Main_pipeline/GSE756881/GSVA_scores.csv",sep=",",row.
 ```
 The GSVA results will be similar to the table shown below
 
-| __Gene Name__ | __Signature__ | __P-Value__ | __Corelation__ |
+| __Gene Name__ | __Signature__ | __P-Value__ | __Correlation__ |
 |-------------|------------|------------|------------|
 | OR6C75     | Differentiation | 0.0001542391263     | 0.21    |
 | OR8H1       | Angiogenesis | 0.0003532790554     | 0.20    |

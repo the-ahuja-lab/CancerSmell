@@ -269,7 +269,7 @@ Finding Markers of all clusters
 pb.markers <- FindAllMarkers(pb, only.pos = TRUE, min.pct = 0.25, logfc.threshold = 0.25)
 write.table(pb.markers,file="Main_pipeline/GSE75688/Markers_info.csv",
             sep=",",row.names=FALSE,col.names = TRUE,quote = FALSE)
-row_names<-row.names(seurat_input)
+row_names<-row.names(pb)
 row_names<-as.data.frame(row_names)
 seurat_input_copy<-seurat_input
 seurat_input_copy<-setDT(seurat_input_copy, keep.rownames = TRUE)[]
